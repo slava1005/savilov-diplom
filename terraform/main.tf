@@ -6,8 +6,6 @@ terraform {
   }
   backend "s3" {
   endpoint = "storage.yandexcloud.net"
-#  endpoints = {
-  #    s3 = "https://storage.yandexcloud.net"
     }
     bucket = "savilovvv"
     region = "ru-central1"
